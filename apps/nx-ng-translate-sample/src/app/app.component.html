@@ -1,0 +1,13 @@
+<div style="text-align: center;">
+  <label>{{langChoice}}</label><select (change)="onSelectLang($event)">
+    <option value="en" selected>English</option>
+    <option value="ua">Українська</option>
+  </select>
+  <nx-sample-welcome></nx-sample-welcome>
+  <nx-sample-greeting></nx-sample-greeting>
+  <div style="display: inline-block;">
+    <div class="line" style="background: blue;"></div>
+    <div class="line" style="background: yellow;"></div>
+  </div>
+</div>
+

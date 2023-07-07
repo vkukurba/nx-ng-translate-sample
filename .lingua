@@ -1,0 +1,13 @@
+{
+  "translationFiles": [
+    {
+      "lang": "ua",
+      "uri": "i18n/ua.json"
+    },
+    {
+      "lang": "en",
+      "uri": "i18n/en.json"
+    }
+  ],
+  "defaultLang": "ua"
+}
